@@ -107,7 +107,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  padding: 40px 0;
+  padding: 150px 0;
   align-content: center;
   height: 400px;
   width: 700px;
@@ -162,7 +162,7 @@ body {
 }
 
 .button1 {
-  top: -18%;
+  top: -45%;
   left: 42%;
 }
 
@@ -177,7 +177,7 @@ body {
 }
 
 .button4 {
-  top: 90%;
+  top: 120%;
   right: 12%;
 }
 
