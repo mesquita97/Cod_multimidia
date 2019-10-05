@@ -75,36 +75,11 @@ body {
     height: 30%;
     font-size: 20px;
     font-family: Comfortaa;
-<<<<<<< HEAD:Cod_multimidia/Site/styles.css
     margin-left: 20%;
     margin-right: 20%;
 }
 
-=======
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-/* .sobre {
-    position: relative;
-    left: 180px;
-    top: 70px;
-}
-
-.shortbio {
-    position: relative;
-    left: 220px;
-    top: 70px;
-}
-
-.contact {
-    position: relative;
-    left: 260px;
-    top: 70px;
-} */
-
->>>>>>> 06a370252ad06c9b5e06691f2a6cb3fe09dd4edf:Site/styles.css
-.w3-red {
+.w3-button {
   border: 1px solid;
   border-radius: 30px;
   background-color: #5e0000;
@@ -113,15 +88,9 @@ body {
   width: 20%;
   align-content: center;
   overflow: hidden;
-<<<<<<< HEAD:Cod_multimidia/Site/styles.css
   cursor: pointer;
-=======
->>>>>>> 06a370252ad06c9b5e06691f2a6cb3fe09dd4edf:Site/styles.css
 }
 
-/* .w3-red, .w3-hover-red:hover {
-
-} */
 
 #centerImage {
   position: relative;
@@ -263,8 +232,3 @@ body {
   font-family: Comfortaa;
   color: white;
 }
-
-/* .btn-group .buttonProfile:hover {
-  content: a;
-  display: inline-flex;
-} */
