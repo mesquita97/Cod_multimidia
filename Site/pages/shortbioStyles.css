@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-html, body {
+html, .short_bio {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -83,7 +83,7 @@ hr.light {
   backface-visibility: visible;
 }
 /*--- Fixed Background Image --*/
-figure {
+.short_bio_fig {
   position: relative;
   width: 100%;
   height: 60%;
@@ -115,10 +115,6 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
