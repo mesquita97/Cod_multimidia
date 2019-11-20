@@ -119,17 +119,29 @@ hr.light {
 
 
 .w3-button {
+  margin-top: 3%;
   border: 1px solid;
   border-radius: 30px;
   background-color: DodgerBlue;
   color: #fff;
-  height: 40%;
+  height: 30%;
   width: 30%;
   align-content: center;
   overflow: hidden;
   cursor: pointer;
 }
 
+#video-change ~ #changed-video {
+  content: url('assets/next-icon.png');
+  height: 40%;
+  width: 10%;
+  align-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 0px;
+
+  back-1.background: url();
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
