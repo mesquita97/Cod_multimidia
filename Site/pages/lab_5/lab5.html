@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Multimidia - O Codigo da Vinci</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
+	<link href="style_lab5.css" rel="stylesheet">
+</head>
+
+<body class="lab_1">
+
+<!-- Navegação (Navbar) -->
+ <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+ 	<div class="container-fluid">
+ 		<a class="navbar-brand" href="../../index.html"><h3 >O Código da Vinci</h3></a>
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse"
+ 		data-target="#navbarResponsive">
+ 			<span class="navbar-toggler-icon"></span>
+ 		</button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+  	<ul class="navbar-nav ml-auto">
+  		<li class="nav-item">
+  			<a class="nav-link" href="../../index.html">Início</a>
+  		</li>
+  		<li class="nav-item">
+  			<a class="nav-link" href="#">Categorias</a>
+  		</li>
+  		<li class="nav-item">
+  			<a class="nav-link" href="#">Sobre nós</a>
+  		</li>
+  		<li class="nav-item">
+  			<a class="nav-link" href="#">Contato</a>
+  		</li>
+  	</ul>
+  </div>
+ </div>
+</nav>
+
+<!--- Welcome Section -->
+
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Laboratório 5</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Gravações e Análise de Áudio</p>
+		</div>
+	</div>
+</div>
+
+<div class"container-fluid padding">
+	<div class="row welcome-1 text-center">
+		<hr>
+		<div class="col-12">
+			<h5> D - Gravações de frases por falantes distintos</h5>
+		</div>
+			<table id="t01">
+				<p>Áudios capacitivos</p>
+			  <tr>
+			    <th>Hiro</th>
+			    <th>Panini</th>
+			    <th>Raphael</th>
+					<th>Gabriel</th>
+			  </tr>
+			  <tr>
+			    <td>
+						<audio controls id="hiro">
+							<source src="file/HiroCapacitivo.wav" type="audio/mpeg">
+						</audio>
+					</td>
+			    <td>
+						<audio controls id="hiro">
+							<source src="file/PaniniCapacitivo.wav" type="audio/mpeg">
+						</audio>
+					</td>
+			    <td>
+						<audio controls id="hiro">
+							<source src="file/RaphaelCapacitivo.wav" type="audio/mpeg">
+						</audio>
+					</td>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/WelCapacitivo.wav" type="audio/mpeg">
+						</audio>
+					</td>
+			  </tr>
+		</table>
+		<table id="t01">
+			<p id=titleDinamico>Áudios Dinamicos</p>
+			<tr>
+				<th>Hiro</th>
+				<th>Panini</th>
+				<th>Raphael</th>
+				<th>Gabriel</th>
+			</tr>
+			<tr>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/HiroDinamico.wav" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/PaniniDinamico.wav" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/RaphaelDinamico.wav" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/WelDinamico.wav" type="audio/mpeg">
+					</audio>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class"container-fluid padding">
+	<div class="row welcome-1 text-center">
+		<hr>
+		<div class="col-12">
+			<h5>E. Gravação estéreo. Voz Cantada.</h5>
+			<table id="t01">
+				<tr>
+					<th>Dinâmico no solo</th>
+					<th>Capacitivo no Solo</th>
+				</tr>
+				<tr>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/DinamicoSoloCapacitivoCoro.wav" type="audio/mpeg">
+						</audio>
+					</td>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/CapacitivoSoloDinamicoCoro.wav" type="audio/mpeg">
+						</audio>
+					</td>
+				</tr>
+		</table>
+		</div>
+	</div>
+</div>
+
+<div class"container-fluid padding">
+	<div class="row welcome-1 text-center">
+		<hr>
+		<div class="col-12">
+			<h5>F. Análise Tempo-Frequência: ESPECTROGRAM (MONO).</h5>
+			<table id="t01">
+				<p>Áudios capacitivos</p>
+				<tr>
+					<th>Hiro</th>
+					<th>Panini</th>
+					<th>Raphael</th>
+					<th>Gabriel</th>
+				</tr>
+				<tr>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/verso1CapacitivoHiro.wav" type="audio/mpeg">
+						</audio>
+					</td>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/verso1CapacitivoPanini.wav" type="audio/mpeg">
+						</audio>
+					</td>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/verso1CapacitivoRaphael.wav" type="audio/mpeg">
+						</audio>
+					</td>
+					<td>
+						<audio controls id="hiro">
+							<source src="file/verso1CapacitivoWel.wav" type="audio/mpeg">
+						</audio>
+					</td>
+				</tr>
+		</table>
+		<table id="t01">
+			<p id=titleDinamico>Áudios Dinamicos</p>
+			<tr>
+				<th>Hiro</th>
+				<th>Panini</th>
+				<th>Raphael</th>
+				<th>Gabriel</th>
+			</tr>
+			<tr>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/verso1DinamicoHiro.wav" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/verso1DinamicoPanini.wav" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/verso1DinamicoRaphael.wav" type="audio/mpeg">
+					</audio>
+				</td>
+				<td>
+					<audio controls id="hiro">
+						<source src="file/verso1DinamicoWel.wav" type="audio/mpeg">
+					</audio>
+				</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+</div>
+
+<div class"container-fluid padding">
+	<div class="row welcome-1 text-center">
+		<div class="col-12">
+			<hr>
+			<article>
+				<h1>Prosódia</h1>
+			</div>
+				<p>Prosódia é o emprego correto da acentuação tônica das palavras. Ela está ligada à oralidade.</p>
+				<p>Durante os versos falados, os integrantes pronunciam as palavras com a sua tonicidade correta, ou seja, empregam a prosódia.
+					Já nos versos cantados, a acentuação tônica de algumas palavras é modificada, para estabelecer o ritmo da música.
+				</p>
+		</article>
+	</div>
+</div>
+
+
+<!--- Criadores -->
+
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+	</div>
+	<hr>
+</div>
+</div>
+
+</body>
+</html>
