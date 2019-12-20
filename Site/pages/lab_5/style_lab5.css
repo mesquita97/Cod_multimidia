@@ -189,6 +189,10 @@ article {
   background-color: #f1f1f1;
 }
 
+#especificacoes {
+  font-size: 12px;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
