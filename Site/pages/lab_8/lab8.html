@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Multimidia - O Codigo da Vinci</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="style_lab1.css" rel="stylesheet">
+</head>
+<body class="lab_1">
+
+<!-- Navigation (Navbar) -->
+ <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+ 	<div class="container-fluid">
+ 		<a class="navbar-brand" href="../../index.html"><h3 >O Código da Vinci</h3></a>
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse"
+ 		data-target="#navbarResponsive">
+ 			<span class="navbar-toggler-icon"></span>
+ 		</button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+  	<ul class="navbar-nav ml-auto">
+  		<li class="nav-item">
+  			<a class="nav-link" href="../../index.html">Início</a>
+  		</li>
+  		<li class="nav-item">
+  			<a class="nav-link" href="#">Categorias</a>
+  		</li>
+  		<li class="nav-item">
+  			<a class="nav-link" href="#">Sobre nós</a>
+  		</li>
+  		<li class="nav-item">
+  			<a class="nav-link" href="#">Contato</a>
+  		</li>
+  	</ul>
+  </div>
+ </div>
+</nav>
+
+<!--- Welcome Section -->
+
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Laboratório 8</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Codificacao de Voz e Audio</p>
+			<img id="video-change"></img>
+		</div>
+	</div>
+</div>
+
+<h4>Separacao de uma estrofe</h4>
+<br>
+<audio controls>
+			<source src="assets/Hiro01.wav" type="audio/wav">
+</audio><br>
+<center><img source src="assets/HiroVoice.png"></center>
+<br/><br/><br/>
+<h4>Janela Hamming</h4>
+<center><img source src="assets/Hamming.png"></center>
+<br/><br/><br/>
+
+<h4>Primeira Estrofe</h4>
+<center><img source src="assets/PrimeiraEstrofe.png"></center>
+<br/><br/><br/>
+
+<h3>Cálculo dos Parâmetros LPC, separação U/UV e Espectro + Envoltória LPC</h3>
+<h4>Energia Primeira Estrofe</h4>
+<center><img source src="assets/EnergiaPrimeiraEstrofe.png"></center>
+<br/><br/><br/>
+<h4>Segmentos Sonoros</h4>
+<center><img source src="assets/Sonoro1.png"></center>
+<center><img source src="assets/Sonoro2.png"></center>
+<br/><br/><br/>
+<h4>Segmentos Surdos</h4>
+<center><img source src="assets/Surdos.png"></center>
+<br/><br/><br/>
+
+<h4>Voz Cantada</h4>
+<audio controls>
+			<source src="assets/Hiro02.wav" type="audio/wav">
+</audio><br>
+<center><img source src="assets/Cantada.png"></center>
+<br/><br/><br/>
+
+<h4>Cantada de inicio</h4>
+<center><img source src="assets/CantadaInicio.png"></center>
+<br/><br/><br/>
+
+<h3>Cálculo dos Parâmetros LPC, separação U/UV e Espectro + Envoltória LPC</h3>
+<h4>Energia Primeira Estrofe</h4>
+<center><img source src="assets/EnergiaCantada.png"></center>
+<br/><br/><br/>
+<h4>Segmentos Sonoros</h4>
+<center><img source src="assets/SonorosCantada.png"></center>
+<br/><br/><br/>
+<h4>Segmentos Surdos</h4>
+<center><img source src="assets/SurdosCantada.png"></center>
+<br/><br/><br/>
+
+<h4>Espectrograma equivalente 32kbps</h4>
+<br>
+<audio controls>
+			<source src="assets/TopGear2__32k.wav" type="audio/wav">
+</audio><br>
+<center><img source src="assets/Spec32.png"></center>
+<br/><br/><br/>
+
+<h4>Espectrograma equivalente 128kbps</h4>
+<br>
+<audio controls>
+			<source src="assets/TopGear2__128k.wav" type="audio/wav">
+</audio><br>
+<center><img source src="assets/Spec128.png"></center>
+<br/><br/><br/>
+
+<h4>Espectrograma equivalente 360kbps</h4>
+<br>
+<audio controls>
+			<source src="assets/TopGear2__360k.wav" type="audio/wav">
+</audio><br>
+<center><img source src="assets/Spec360.png"></center>
+<br/><br/><br/>
+
+</body>
+</html>
